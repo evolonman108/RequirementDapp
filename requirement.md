@@ -33,6 +33,25 @@ Crowd fund
 	- View project info include balance, 
 	
 Insurance
+Descripton:
+	- Problem:
+		-- the claim process takes time. The insured persons have to wait days or weeks or even months to get back the money. 
+		-- the insurer companies have to spend a lot of effort and time to verify the claim.
+		-- but they cannot avoid the cheat from their customers.
+	- Idea: apply blockchian to:
+		-- verify the claim form easier and faster.
+		-- transfer money faster.
+		-- prevent the cheat.
+Requirement:
+	short description: 
+		- the hospital has the responsibility to do the medical examination and treatment, and store them to blockchain so that 		the insurer can access these information to verify later. Let say 'receipt'.
+		- the patient (insured person) claim the money by giving the receipt id.
+		- based on the receipt id, the insurer verifies it, and then approve or reject.
+		- if approve then transfer the money to the patient and inform approve.
+		- if reject, inform the reason to the patient.
+		- the patient recieves claim result automatically.
+	action:
+	
 	- EOA: patient, insurer owner, hospital owner
 	
 	- Create hospital, insurer(contract)
