@@ -15,7 +15,7 @@
 ## Crowd fund
 #### Descrition:
 1. Prevent founder of project create request transfer money to someone without confirmation sponsor of the project.
-#### Requirement
+#### Requirement: Build an application has GUI and use blockchain to do the following task
 1. A founder create project
 2. Project must be sponed by sponsor before can create request transfer money to someone
 3. After create request, sponsor must approve that request
@@ -29,7 +29,7 @@
 - In order to reduce effort for the insurer companies to verify the claim.
 - Preventing chect from their customers.
 - Make process more safety
-#### Requirement:
+#### Requirement: Build an application has GUI and use blockchain to do the following task
 1. the hospital has the responsibility to do the medical examination and treatment, and store them to blockchain so that the insurer can access these information to verify later. Let say 'receipt'.
 2. the patient (insured person) claim the money by giving the receipt id.
 3. based on the receipt id, the insurer verifies it, and then approve or reject.
@@ -38,7 +38,7 @@
 6. the patient recieves claim result automatically.
   
 ## Supply chain:
-#### Descrition: 
+#### Requirement: Build an application has GUI and use blockchain to do the following task 
 - In order to provide customers have more information about product history, such as:
     - when is it created?
     - who created it?
