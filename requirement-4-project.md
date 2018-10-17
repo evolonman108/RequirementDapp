@@ -38,13 +38,13 @@
 6. the patient recieves claim result automatically.
   
 ## Supply chain:
-#### Requirement: Build an application has GUI and use blockchain to do the following task 
+#### Descrition:
 - In order to provide customers have more information about product history, such as:
     - when is it created?
     - who created it?
     - who are distributions?
     - Distribution vendor can resell fake products which come from unknown sources.
-#### Requirement:
+#### Requirement: Build an application has GUI and use blockchain to do the following task 
 1. The producer can make new products and put them into blockchain.
 2. The distribution vendor can buy products from producer or other vendor. The changing owner information will be update into blockchain as well.
 3. Customers can view history of their products based on product identifiers.
