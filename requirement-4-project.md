@@ -1,27 +1,29 @@
-## History Patient 
-#### Descrition
+# requirement more detail
+## History Patient [need reason for transfer money]
+#### Descrition [rewrite description follow business]
 1. A patient go to hospital for checking his/her heath
-2. The hospital will lookup his information in electronic heath record and see all history information of patient about
+2. The hospital will lookup his information in heath record and see all history information of patient about
     - Where did he/she check before?
     - What kind of sickness?
     - What was the treatment?
+
 #### Requirement: Build an application has GUI and use blockchain to do the following task
-1. The hospital create electronic heath records for patient include information such as(name, age, gender)
+1. The hospital create heath records for patient include information such as(name, age, gender)
 2. The patient must be transfer money to electronic heath records
 3. Then the hospital write treatment and sickness into the electronic heath record. 
-4. The electronic heath record with update history of hospital and transfer money to hospital
+4. The electronic heath record with update history of hospital and patient will approve heath record and then transfer money to hospital
 5. Notify patient and hospital if there are some changes in there account balance in that transaction.
 
 ## Crowd fund
 #### Descrition:
+
 1. Prevent founder of project create request transfer money to someone without confirmation sponsor of the project.
 #### Requirement: Build an application has GUI and use blockchain to do the following task
 1. A founder create project
-2. Project must be sponed by sponsor before can create request transfer money to someone
+2. Project must be funded by sponsor(at least 1eth) before can create request transfer money to someone
 3. After create request, sponsor must approve that request
-4. If the number of sponsor approved greater than 50% of total number sponsor
-5. Then system will transfer money to someone that already setup before.
-6. After trasfer money create notifycation to inform account balance of sender and reciever
+4. If the number of sponsor approved greater than 50% of total number sponsor. Then system will transfer money to someone that already setup before.
+5. After trasfer money create notifycation to inform account balance of sender and reciever
 
 ## Insurrance:
 #### Descrition:
@@ -32,12 +34,12 @@
 #### Requirement: Build an application has GUI and use blockchain to do the following task
 1. the hospital has the responsibility to do the medical examination and treatment, and store them to blockchain so that the insurer can access these information to verify later. Let say 'receipt'.
 2. the patient (insured person) claim the money by giving the receipt id.
-3. based on the receipt id, the insurer verifies it, and then approve or reject.
-4. if approve then transfer the money to the patient and inform approve.
-5. if reject, inform the reason to the patient.
-6. the patient recieves claim result automatically.
+based on the receipt id, the insurer verifies it, and then approve or reject.
+3. If receipt is rejected then inform the reason to the patient.
+4. if approve then transfer the money to the patient and inform approve. 
+5. the patient receives claim result automatically(e.g. a popup message, give hint).
   
-## Supply chain:
+## Supply chain: need transfer money
 #### Descrition:
 - In order to provide customers have more information about product history, such as:
     - when is it created?
