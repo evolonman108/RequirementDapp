@@ -1,11 +1,31 @@
 # requirement more detail
 ## History Patient [need reason for transfer money]
 #### Descrition [rewrite description follow business]
-1. A patient go to hospital for checking his/her heath
-2. The hospital will lookup his information in heath record and see all history information of patient about
-    - Where did he/she check before?
-    - What kind of sickness?
-    - What was the treatment?
+Introduce: 
+The treatment history of the patient is very important. But it is mainly write and read from the book. The doctor hard to review the treatment history of the patient so that he can provide the best and suitable treatment. Although from hospital to hospital, the patient have to do the medical examintaion again and and again for the same sickness because the hospials don't trust each other.
+Apply blockchain to transperant the patient's treatment history to solve the problem.
+
+Business desciption
+1. When a peron goes to hospital for checking his heath or sickness, the hospital create a patient contract for him, or lookup the patient contract of him in blockchain system if there is existing one.
+2. The hospital has to retrieve the treatment history of this patient in order to have an overview.
+3. The hospital provide the medical examination request. The patient has to pay money for that before getting the result.
+4. When the examination result is returned, the system send the notification to the patient.
+5. The hospital provides the treatment only if there is a examination result.
+
+data structure for examination request:
+        - patient_id
+        - hospital_address
+        - examination_name
+        - examination_result
+        - money
+data structure for patient:
+        - patient_id
+        - person_address
+        - hospital_address
+        - doctor_name
+        - sickness_diagnose
+        - examination_address
+        - treatment
 
 #### Requirement: Build an application has GUI and use blockchain to do the following task
 1. The hospital create heath records for patient include information such as(name, age, gender)
@@ -14,8 +34,23 @@
 4. The electronic heath record with update history of hospital and patient will approve heath record and then transfer money to hospital
 5. Notify patient and hospital if there are some changes in there account balance in that transaction.
 
+
+
 ## Crowd fund
 #### Descrition:
+Nowsaday, a crowd fund project is a secret for every people, even for the sponsors. Because one sponsor just know how much he contributes and does not know the others. Also all the sponsors does not know what the project owner does with their fund.
+Apply blockchain to transparent the income and outcome money. Also grant the right to the sponsors so that they know their money is using for what, and can stop it if they want.
+
+### Business description
+1. A person create his own the crowd fund project.
+2. everyone can fund for this project to become a sponsor
+3. The project owner use the money for some reason, such as buy the materials, hiring the labour ... That means he transfer the money to someone else. Let say he creates a request to transfer the money to another account
+4. The sponsors can approve or reject the request. If the request has enough approvement, the money will be transfer
+5. Every sponsor is nofified that the request is executed or canceled
+
+data structure for project contract...
+data structure for request contract...
+
 
 1. Prevent founder of project create request transfer money to someone without confirmation sponsor of the project.
 #### Requirement: Build an application has GUI and use blockchain to do the following task
