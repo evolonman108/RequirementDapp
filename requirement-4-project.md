@@ -33,6 +33,12 @@
 - Make process more safety
 #### Requirement: Build an application has GUI and use blockchain to do the following task
 1. the hospital has the responsibility to do the medical examination and treatment, and store them to blockchain so that the insurer can access these information to verify later. Let say 'receipt'.
+    the data structure:
+        - reciept_id 
+        - person address
+        - hospital_address
+        - treatment
+        - money
 2. the patient (insured person) claim the money by giving the receipt id.
 based on the receipt id, the insurer verifies it, and then approve or reject.
 3. If receipt is rejected then inform the reason to the patient.
